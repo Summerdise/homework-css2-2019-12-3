@@ -10,9 +10,11 @@
 }
 .content{
     max-width: 700px;
+    max-height: 800px;
     width:700px;
     margin:0 auto;
     background-color: white;
+    overflow: auto;
 }
 .content .top-title{
     position:fixed;
@@ -147,7 +149,4 @@ td{
 .content-buyed-num{
     font-size:14px;
     color:grey;
-}
-.except-top{
-    overflow: hidden;
 }
