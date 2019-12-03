@@ -54,21 +54,21 @@
     height:10px;
 }
 .button-1{
-    position: absolute;
-    left:931px;
-    top:280px;
+    position: relative;
+    left:662px;
+    top:-20px;
     background-color: black;
 }
 .button-2{
-    position: absolute;
-    left:890px;
-    top:280px;
+    position: relative;
+    left:647px;
+    top:-30px;
     background-color:white;
 }
 .button-3{
-    position: absolute;
-    left:910px;
-    top:280px;
+    position: relative;
+    left:632px;
+    top:-40px;
     background-color:white;
 }
 .choose{
