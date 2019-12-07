@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.total {
+    margin: 0 auto;
+    position: fixed;
+    width: 1200px;
+    background-color: black;
+}
+
+.content {
+    max-width: 700px;
+    max-height: 800px;
+    width: 700px;
+    margin: 0 auto;
+    background-color: white;
+    overflow: auto;
+}
+
+.content .top-title {
+    position: fixed;
+    width: 700px;
+    height: 50px;
+    background-color: darkblue;
+}
+
+.return-icon {
+    width: 30px;
+    height: 30px;
+    margin-left: 8px;
+    margin-top: 10px;
+}
+
+.title-name {
+    color: white;
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+.buy-car {
+    float: right;
+    height: 30px;
+    width: 30px;
+    margin-right: 8px;
+    margin-top: 10px;
+}
+
+.ad {
+    height: 300px;
+    width: 700px;
+}
+
+.ad-img {
+    height: 300px;
+    width: 700px;
+}
+
+.button {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+}
+
+.button-1 {
+    position: relative;
+    left: 662px;
+    top: -20px;
+    background-color: black;
+}
+
+.button-2 {
+    position: relative;
+    left: 647px;
+    top: -30px;
+    background-color: white;
+}
+
+.button-3 {
+    position: relative;
+    left: 632px;
+    top: -40px;
+    background-color: white;
+}
+
+.nav {
+    height: 180px;
+    width: 700px;
+}
+
+.nav-style {
+    position: relative;
+    border: lightgray 0.5px solid;
+    border-radius: 20px;
+    height: 60px;
+    width: 160px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.choose-1 {
+    left: 40px;
+    top: 20px;
+}
+
+.choose-2 {
+    left: 267px;
+    top: -42px;
+    color: white;
+    background-color: red;
+}
+
+.choose-3 {
+    left: 493px;
+    top: -102px;
+}
+
+.choose-4 {
+    left: 40px;
+    top: -75px;
+}
+
+.choose-5 {
+    left: 267px;
+    top: -136px;
+}
+
+.choose-6 {
+    left: 493px;
+    top: -197px;
+}
+
+.content-list {
+    list-style: none;
+    width: 660px;
+    margin: 0 auto;
+    border: none;
+    border-bottom: lightgray solid 0.5px;
+    overflow: auto;
+}
+
+.img {
+    float: left;
+    position: relative;
+    width: 180px;
+    height: 100px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+td {
+    border: none;
+    border-bottom: lightgray solid 1px;
+}
+
+.content-title {
+    margin: 5px 0 10px 10px;
+    font-size: 20px;
+    color: black;
+}
+
+.content-intro {
+    margin: 5px 0 5px 10px;
+    color: grey;
+    line-height: ;
+}
+
+.content-price {
+    margin: 5px 20px 5px 10px;
+    display: inline-block;
+    font-size: 14px;
+    color: red;
+}
+
+.content-buyed-num {
+    font-size: 14px;
+    color: grey;
+}
