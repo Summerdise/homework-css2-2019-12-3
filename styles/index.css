@@ -4,14 +4,16 @@
 }
 
 .total {
-    position: fixed;
     width: 375px;
+    height: 1000px;
     background-color: black;
 }
 
 .content {
+    position: relative;
     max-width: 375px;
     width: 375px;
+    height: 1000px;
     float: left;
     background-color: white;
     overflow: auto;
