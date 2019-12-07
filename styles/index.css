@@ -4,137 +4,136 @@
 }
 
 .total {
-    margin: 0 auto;
     position: fixed;
-    width: 1200px;
+    width: 375px;
     background-color: black;
 }
 
 .content {
-    max-width: 700px;
-    max-height: 800px;
-    width: 700px;
-    margin: 0 auto;
+    max-width: 375px;
+    width: 375px;
+    float: left;
     background-color: white;
     overflow: auto;
 }
 
 .content .top-title {
     position: fixed;
-    width: 700px;
-    height: 50px;
+    width: 375px;
+    height: 35px;
     background-color: darkblue;
+    z-index: 3;
 }
 
 .return-icon {
-    width: 30px;
-    height: 30px;
-    margin-left: 8px;
-    margin-top: 10px;
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    margin-top: 7px;
 }
 
 .title-name {
     color: white;
-    margin-left: 20px;
-    font-size: 25px;
+    margin-left: 25px;
+    font-size: 20px;
 }
 
 .buy-car {
     float: right;
-    height: 30px;
-    width: 30px;
-    margin-right: 8px;
-    margin-top: 10px;
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+    margin-top: 7px;
 }
 
 .ad {
-    height: 300px;
-    width: 700px;
+    margin-top: 30px;
+    height: 150px;
+    width: 375px;
 }
 
 .ad-img {
-    height: 300px;
-    width: 700px;
+    height: 150px;
+    width: 375px;
 }
 
 .button {
     border-radius: 50%;
-    width: 10px;
-    height: 10px;
+    width: 5px;
+    height: 5px;
 }
 
 .button-1 {
     position: relative;
-    left: 662px;
-    top: -20px;
+    left: 356px;
+    top: -12px;
     background-color: black;
 }
 
 .button-2 {
     position: relative;
-    left: 647px;
-    top: -30px;
+    left: 348px;
+    top: -17px;
     background-color: white;
 }
 
 .button-3 {
     position: relative;
-    left: 632px;
-    top: -40px;
+    left: 340px;
+    top: -22px;
     background-color: white;
 }
 
 .nav {
-    height: 180px;
-    width: 700px;
+    height: 120px;
+    width: 357px;
 }
 
 .nav-style {
     position: relative;
     border: lightgray 0.5px solid;
-    border-radius: 20px;
-    height: 60px;
-    width: 160px;
+    border-radius: 10px;
+    height: 35px;
+    width: 80px;
     text-align: center;
-    font-size: 25px;
+    font-size: 15px;
 }
 
 .choose-1 {
-    left: 40px;
-    top: 20px;
+    left: 30px;
+    top: 18px;
 }
 
 .choose-2 {
-    left: 267px;
-    top: -42px;
+    left: 144px;
+    top: -18px;
     color: white;
     background-color: red;
 }
 
 .choose-3 {
-    left: 493px;
-    top: -102px;
+    left: 255px;
+    top: -54px;
 }
 
 .choose-4 {
-    left: 40px;
-    top: -75px;
+    left: 30px;
+    top: -38px;
 }
 
 .choose-5 {
-    left: 267px;
-    top: -136px;
+    left: 144px;
+    top: -74px;
 }
 
 .choose-6 {
-    left: 493px;
-    top: -197px;
+    left: 255px;
+    top: -110px;
 }
 
 .content-list {
     list-style: none;
-    width: 660px;
-    margin: 0 auto;
+    width: 357px;
     border: none;
     border-bottom: lightgray solid 0.5px;
     overflow: auto;
@@ -143,8 +142,8 @@
 .img {
     float: left;
     position: relative;
-    width: 180px;
-    height: 100px;
+    width: 150px;
+    height: 70px;
     margin-top: 10px;
     margin-bottom: 20px;
 }
@@ -156,24 +155,25 @@ td {
 
 .content-title {
     margin: 5px 0 10px 10px;
-    font-size: 20px;
+    font-size: 15px;
     color: black;
 }
 
 .content-intro {
     margin: 5px 0 5px 10px;
     color: grey;
-    line-height: ;
+    line-height: 100%;
+    font-size: 10px;
 }
 
 .content-price {
     margin: 5px 20px 5px 10px;
     display: inline-block;
-    font-size: 14px;
+    font-size: 8px;
     color: red;
 }
 
 .content-buyed-num {
-    font-size: 14px;
+    font-size: 8px;
     color: grey;
 }
